@@ -20,7 +20,7 @@ public class MainApp {
 //		HelloWorld obj =(HelloWorld)context.getBean("helloWorld");
 //		obj.getMessage();
 		XmlBeanFactory factory = new XmlBeanFactory(new ClassPathResource("Bean.xml"));
-		HelloWorld helloWorld = (HelloWorld)factory.getBean("helloWorld");
+		HelloWorld helloWorld = (HelloWorld)factory.getBean("helloWorld111");
 		helloWorld.getMessage();
 	}
 
