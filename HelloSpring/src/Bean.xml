@@ -9,4 +9,5 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 <bean id="helloWorld" class="com.xuexirui.HelloWorld">
 	<property name="message" value="Hello World!"></property>
 </bean>
+<bean id="nihao"></bean>
 </beans>
